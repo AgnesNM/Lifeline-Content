@@ -61,20 +61,23 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1 {
-    color:plum;
+    color:purple;
     text-align: center;    
   }
 
 .conqueror-container .row .content > h1{
     color:plum;
+    text-align:left;
     font-size: 70px;
     text-transform: uppercase;
     text-shadow: 2px 2px #000;    
     font-weight: 500;
     line-height: 1.1;    
-    padding-top: 4em; 
-    margin-top: 20px;
-    margin-bottom: 10px;   
+    padding-top: 1em; 
+    margin-top: 0;
+    margin-bottom: 0;   
+    margin-right:12em;
+    
           
 }
 
@@ -99,6 +102,7 @@ h1 {
     transform: translate3d(0px, 0px, 0px);
     border: 1px solid transparent;
     margin-bottom: 0em;
+    height:500px;
 }
 .bgImg1 > img{
     width:100%;
