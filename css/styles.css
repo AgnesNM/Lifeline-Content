@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .nav-container{
     width:100%;
-    min-height:50px;
+    min-height:20px;
     background:plum;
     border-color:#383E4C;
     border-width:0em 0em 1em 0em;
@@ -17,10 +17,18 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     right: 0;
     left: 0;
     z-index: 1030;
-    margin-bottom:1em;
+    margin-bottom:0.5em;
     margin-top:0em;
     border: 1px solid transparent;
     display: block;
+    padding: 0.1em;
+    transition:0.4s;
+}
+.logo{
+       
+    width:150px;
+    height:80px; 
+    
 }
 
 .nav-list{    
@@ -30,20 +38,22 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: center;
     display: inline-block;
     float: none;
-    padding-left: 0;  
+    padding-left: 0;
        
 }
+
 .nav-list>a{
     color:white;
     display: inline-block;
     position: relative;    
     display: inline-block;
     border:0.05em solid #708090;
-    padding:1em;
+    padding:0.5em;
     text-decoration: none;
     margin-right:1em;
 
 }
+
 .conqueror-container{
     border: 1px solid transparent;
     margin-bottom:1em;
@@ -340,7 +350,7 @@ h1 {
     line-height: 1.1;
 }
 
-.rowImg4{
+.rowImg4{  
     width: 100%;
     height: auto;
     border: none;
@@ -391,6 +401,7 @@ h1 {
     background: #fff none repeat scroll 0 0;  
 }
 .rowImg5{
+    margin-bottom:2em;
     width: 100%;
     height: auto;
     border: none;
@@ -626,6 +637,6 @@ textarea{
     margin-left: -15px;
     text-align: center;
 }
- .footer-container2 .row .col-sm-12{
+.footer-container2 .row .col-sm-12{
     text-align: center;
- }
+}
