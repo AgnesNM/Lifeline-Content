@@ -1,12 +1,12 @@
-const menuIcon = () => {
+const seeMenu = () => {
     document.querySelector('.icon').addEventListener('click', function () {
-        let seeMenu = document.querySelector('.nav-list');
-        if (seeMenu.className === "nav-list") {
-            seeMenu.className += " responsive";
+        let x = document.querySelector('#link-wrapper');
+        if (x.className === 'nav-list'){
+            x.className += ' responsive';
         } else {
-            seeMenu.className = "nav-list";
+            x.className = 'nav-list';
         }
     });
-}
+};
 
-menuIcon();
+seeMenu();
