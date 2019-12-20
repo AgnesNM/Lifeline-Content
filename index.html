@@ -8,16 +8,60 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<title>Lifeline Content</title>
 	<link rel="icon" href="images/LOGO.png"> 
+	<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
-	<div class="nav-container">
-			<img class="logo" src="images/LOGO.png" alt="Logo">
-		<nav class="nav-list" id="link-wrapper">				
-			<a class="nav-list-item" id ="firstChild" href="#home">Homepage</a> <a class="nav-list-item" href="#services">Services</a>
-			<a class="nav-list-item" href="#about">About</a> <a class="nav-list-item" href="#contact">Contact</a>
-			<a href="javascript:void(0);" class="icon"> <i class="fa fa-bars"></i> </a>		
-		</nav>	
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark secondary-color #aa66cc fixed-top scrolling-navbar">
+
+	<!-- Navbar brand -->
+	<a class="navbar-brand" href="#"><img class="logo" src="images/LOGO.png" alt="Logo"></a>
+  
+	<!-- Collapse button -->
+	<button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+	  aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<!-- Collapsible content -->
+	<div class="collapse navbar-collapse" id="basicExampleNav">
+  
+	  <!-- Links -->
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="#home">Home
+			<span class="sr-only">(current)</span>
+		  </a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#services">Services</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#about">Our Clients</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#contact">Contact</a>
+		  </li>
+  
+	
+  
+	  </ul>
+	  <!-- Links -->
+  
 	</div>
+	<!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+
+
+
+<div class ="site-content-container">
 	<div class="conqueror-container">
 		<div class="row">
 			<div class="content">
@@ -38,7 +82,7 @@
 					<p class="rowImg1P">Content creation is at the core of marketing. 
 						We craft audience-focused content to meet your audience's needs no matter where they are on their purchase journey. 
 						Backed by keyword research, we tailor our content to meet your users' intent. </p>
-						<a href="https://drive.google.com/open?id=1_8HvjTOx0mmG9zmHfnTvsA1oyOWKwV8L" id="col-btn1">See Samples</a>						
+						<a href="https://drive.google.com/open?id=1_8HvjTOx0mmG9zmHfnTvsA1oyOWKwV8L" class="service-btn"  id="col-btn1">See Samples</a>						
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -49,7 +93,7 @@
 						for the long term. Backed by data, we implement the strategy and keep you informed on the progress. We keep optimizing to 
 						increase the chances for better outcomes.
 					</p>
-						<a href="#contact" id="col-btn2">Talk to us</a>
+						<a href="#contact" class="service-btn" id="col-btn2">Talk to us</a>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -60,7 +104,7 @@
 						We craft well-optimized campaigns that will take care of your spend
 						while reaching your target audience. We keep the campaigns optimized for better results.
 					</p>
-					<a href = #contact id="col-btn3">Talk to us</a>
+					<a href = #contact  class="service-btn" id="col-btn3">Talk to us</a>
 					
 				</div>
 			</div>
@@ -129,7 +173,15 @@
         </div>
 
     </footer>
-
+</div>
+	<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
 	<script src="js/scripts.js">
     </script>
 </body>
