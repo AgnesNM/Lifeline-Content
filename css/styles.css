@@ -650,7 +650,7 @@ textarea{
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
     .nav-list a:not(:first-child) {display: none;}
     .nav-list a.icon {
       float: right;
@@ -658,7 +658,7 @@ textarea{
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 350px) {
     .nav-list.responsive {position: relative;}
     .nav-list.responsive a.icon {
       position: absolute;
