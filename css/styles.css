@@ -7,63 +7,11 @@ body{
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
 }
-/* 
-.nav-container{
-    width:100%;
-    min-height:20px;
-    background:plum;
-    border-color:#383E4C;
-    border-width:0em 0em 1em 0em;
-    position:fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    margin-bottom:0.5em;
-    margin-top:0em;
-    border: 1px solid transparent;
-    display: block;
-    padding: 0.1em;
-    transition:0.4s;
-    overflow: hidden;
-    
-} */
 .logo{       
     width:150px;
     height:50px;     
 }
-/* 
-.nav-list .icon{
-    display:none;    
-    margin-left:7em;
-    
-} */
-/* .nav-list{    
-    padding-right: 15px;
-    padding-left: 15px;
-    margin:0.5em 7em 0.5em 14em;    
-    text-align: center;
-    display: inline-block;
-    float: none;
-    padding-left: 0;   
-       
-} */
 
-/* .nav-list > a{
-    color:white;
-    display: inline-block;
-    position: relative;    
-    display: inline-block;
-    border:0.05em solid #708090;
-    padding:0.5em;
-    text-decoration: none;
-    margin-right:1em;
-
-} */
-
-.fa .fa-bars {       
-    display: block;    
-    text-decoration: none;   
-}
 .conqueror-container{
     border: 1px solid transparent;
     margin-bottom:1em;
@@ -94,11 +42,10 @@ h1 {
     text-shadow: 2px 2px #000;    
     font-weight: 500;
     line-height: 1.1;    
-    padding-top: 0.3em; 
+    padding-top: 2em; 
     margin-top: 0;
     margin-bottom: 0;   
-    margin-right:12em;
-    
+    margin-right:12em;    
           
 }
 
