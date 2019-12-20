@@ -603,7 +603,7 @@ textarea{
 // No media query since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) and (max-width: 960px) { 
+/* @media screen and (max-width: 576px) and (max-width: 960px) { 
     nav{
         display:block;
     }
@@ -627,11 +627,7 @@ textarea{
         height:auto;
         width:auto;
     }
-
-   
-
-   
-}
+} */
 
 /* // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
