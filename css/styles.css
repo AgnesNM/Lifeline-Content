@@ -7,9 +7,12 @@ body{
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
 }
+.nav{
+    float:none;
+}
 .logo{       
-    width:150px;
-    height:50px;     
+    width:250px;
+    height:100px;     
 }
 
 .conqueror-container{
@@ -20,8 +23,8 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .conqueror-container .row .content{    
-    margin: 0em 1em;
-    padding:20em 5em;
+    margin: 0em 0em;
+    padding:20em 2em;
     position: absolute;
     top:-250px;
     right:-100px;
@@ -70,11 +73,12 @@ h1 {
     transform: translate3d(0px, 0px, 0px);
     border: 1px solid transparent;
     margin-bottom: 0em;
-    height:500px;
+    height:auto;
+    
 }
 .bgImg1 > img{
     width:100%;
-    height:700px;
+    height:auto;
 }
 .section2 {
     margin:0em 3em 0em 3em;
@@ -603,31 +607,36 @@ textarea{
 // No media query since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) and (max-width: 960px) { 
+@media only screen and (max-width: 600px)  { 
     nav{
         display:block;
-    }
-    .site-content-container{
-        display:block;
-    }
-    .service-btn{
-        display:block;
-       padding:0px;
-       width:100%;
-       margin:0px;
-       font: size 12;        
-    }
-    .services .row {
-        display: block;
-        margin:2.5em;
-    }
+        padding-bottom:3em;
+    }   
 
-    .rowImg1{
-        display:block;
-        height:auto;
-        width:auto;
+    .section2 .row {    
+        display:flex;
+        flex-flow:column wrap;    
     }
-}
+    .section2 .row .col-md-4{      
+       display:flex;
+       flex-flow:column wrap;
+       
+       
+    }
+    .section2 .row .col-md-4 .col-content .service-btn{      
+      display:block;
+      font-size: small;
+      text-align: left;
+     }
+
+    .clients .row{
+        display:block;  
+        width:100;             
+        text-align:center;
+    }
+} 
+
+
 
 /* // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
@@ -636,4 +645,4 @@ textarea{
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+@media (min-width: 1200px) { ... }
