@@ -581,7 +581,7 @@ textarea{
 
 @media only screen and (max-width: 600px)  {
     h1{
-        padding-top:2em;
+        padding-top:1em;
     }  
      .section2 .row {    
         display:flex;
