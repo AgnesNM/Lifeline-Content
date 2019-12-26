@@ -579,10 +579,7 @@ textarea{
 
 /* // Small devices (landscape phones, 576px and up) */
 
-@media only screen and (max-width: 600px)  {
-    h1{
-        padding-top:1em;
-    }  
+@media only screen and (max-width: 600px)  {  
      .section2 .row {    
         display:flex;
         flex-flow:column wrap;    
