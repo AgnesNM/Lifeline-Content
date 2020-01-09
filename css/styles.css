@@ -544,7 +544,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .bgImg1{
-        widows: 100%;
+        width: 100%;
         height:auto;
     }
 	.section2 .row {
