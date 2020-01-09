@@ -548,13 +548,15 @@ h1 {
 
 @media only screen and (max-width: 600px) {
 	.body{
+		padding:0px;
+		margin:0px;
 		width:100%;
 		overflow-x:hidden;
 	}
-    .bgImg1{
+    /* .bgImg1{
         width: 100%;
         height:auto;
-    }
+    } */
 	.section2 .row {
 		display: flex;
 		flex-flow: column wrap;
