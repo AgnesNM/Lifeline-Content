@@ -547,6 +547,9 @@ h1 {
 /* // Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 600px) {
+	.body{
+		overflow:hidden;
+	}
     .bgImg1{
         width: 100%;
         height:auto;
