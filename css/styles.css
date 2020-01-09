@@ -547,11 +547,12 @@ h1 {
 /* // Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 600px) {
-	body{
+	.container-fluid{
 		padding:0px;
 		margin:0px;
 		width:100%;
 		overflow-x:hidden;
+		position:relative;
 	}  
 	.section2 .row {
 		display: flex;
