@@ -547,7 +547,7 @@ h1 {
 /* // Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 600px) {
-	.body{
+	body{
 		padding:0px;
 		margin:0px;
 		width:100%;
