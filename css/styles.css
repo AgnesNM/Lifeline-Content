@@ -540,6 +540,39 @@ h1 {
 .footer-container2 .row .col-sm-12 {
 	text-align: center;
 }
+.blog{
+	margin:1em 5em 1em 5em;
+	line-height: 1.7;
+}
+.blog > h1{
+	margin-bottom: 0.2em;
+	padding-bottom: 0.2em;
+}
+.bootstrap-warning{
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-left: 2em;
+}
+
+.responsive{
+	width: 100%;
+	height: auto;
+	padding-top:0.3em;
+	margin-top:0.3em;
+	padding-bottom:0.3em;
+	margin-bottom:0.3em;
+}
+.blog > h2, h3, h4, h5 {
+	text-align: center;
+	color: purple ;
+}
+
+.blog > h4, h5 {
+	margin-top:0.2em;
+	text-align: left;
+	color: purple ;
+}
 /* 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap */
