@@ -620,6 +620,11 @@ h1 {
 		align-items: center;
 		margin-left: 1px;
 	}
+	.blog{
+		display: block;
+		width: 100%;
+		margin:0;	
+	}
 }
 /* // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
