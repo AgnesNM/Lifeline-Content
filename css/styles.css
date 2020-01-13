@@ -623,7 +623,10 @@ h1 {
 	.blog{
 		display: block;
 		width: 100%;
-		margin:0;	
+		margin-left:0.5em;	
+		margin-right:0.5em;	
+		padding-left:0.5em;	
+		padding-right:1.5em;	
 	}
 }
 /* // Medium devices (tablets, 768px and up)
