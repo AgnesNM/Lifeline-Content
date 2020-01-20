@@ -575,6 +575,23 @@ h1 {
 	text-align: left;
 	color: purple ;
 }
+
+#author{
+	margin:2em;
+	padding:1em;
+}
+
+#bio{
+	color:plum !important;
+}
+
+#profile{
+	color:plum !important;
+}
+
+#prof{
+	color:plum !important;
+}
 /* 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap */
