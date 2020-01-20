@@ -637,14 +637,23 @@ h1 {
 		align-items: center;
 		margin-left: 1px;
 	}
-	.blog{
+	.blog {
 		display: block;
 		width: 100%;
 		margin-left:0.5em;	
 		margin-right:0.5em;	
 		padding-left:0.5em;	
 		padding-right:1.5em;	
-	
+	}
+	#author {
+		display: block;
+		width: 100%;
+		margin-left:0.5em;	
+		margin-right:0.5em;	
+		padding-left:0.5em;	
+		padding-right:1.5em;
+		padding-top:0;	
+		padding-bottom:0;	
 	}
 }
 /* // Medium devices (tablets, 768px and up)
