@@ -10,7 +10,9 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<meta content="This is a comprehensive guide on responsive website design. Learn how to create mobile-friendly web pages in this article." name="twitter:description">
+	<meta content="This is a comprehensive guide 
+		on responsive website design. 
+		Learn how to create mobile-friendly web pages in this article." name="twitter:description">
 </head>
 <body>
 	<!--Navbar-->
@@ -77,16 +79,56 @@
 		</div><!-- Collapsible content -->
 	</nav><!--/.Navbar-->
 	<div class="container-fluid">
-		<div class="blog">
-			<h1>Responsive Website Design: The Comprehensive Guide [2020]</h1>	
+		<div class="blog">					
+			<h1>Responsive Website Design: The Comprehensive Guide [2020]</h1>
 				<p>Responsive web design is a big deal. This is because your users are highly likely to find you via their smartphones. What this simply
 					means is that your site needs to look great on mobile devices, especially smartphones.
-			</p>		
-			<p>	According to <a href="https://businesstoday.co.ke/kenya-leads-africa-smartphone-usage/">Business Today</a>, 
+				</p>		
+				<p>	According to <a href="https://businesstoday.co.ke/kenya-leads-africa-smartphone-usage/">Business Today</a>, 
 					Kenya has a 91% smartphone penetration, which is way above the African average at 80%. 
 					Does this begin to show you why ensuring that your users can easily and effectively use your site on their smartphones is a priority?	</p>
 				<img alt="Responsive Website" class="responsive" src="images/Responsive.jpg">
-			<h2>How the responsive website design journey began</h2>
+								
+			<h2 id="toc">Table of contents</h2>
+					<div class="toc2">
+						<a href="#toc3">How the responsive website design journey began</a> <br>
+						<a href="#toc4">Google Test</a> <br>
+						<a href="#toc5">But, how do you get to achieve mobile-friendliness?</a> <br>						
+							<a href="#toc6">Using a third-party tool: material design for Bootstrap</a> <br>
+							<ul>
+							<li>
+								<a href="#toc7">  Going through the documentation</a> <br>
+							</li>
+							<li>
+								<a href="#toc8">  ‘Connecting’ mdBootstrap to your webpage</a> <br>					
+								
+							</li>
+							<ul>
+								<li>
+									<a href="#toc9">  Start with the navbar</a> <br>
+								</li>
+								<li>
+									<a href="#toc10"> mdbootstrap navbar features</a> <br>
+								</li>
+								<li>
+									<a href="#toc11">  Important styling aspects to take care of</a> <br>
+								</li>
+								<li>
+									<a href="#toc12">  Logo size</a> <br>
+								</li>
+								<li>
+									<a href="#toc13">  Overflow </a> <br>
+								</li>
+							</ul>								
+														
+						</ul>					
+
+					</div>
+					<!-- <div class="scroller">
+						<p class="scrollerp">Click here to go back to Table of Contents</p>
+					</div> -->
+
+			<h2 id="toc3">How the responsive website design journey began</h2>
 			<p>Setting high standards is one of my greatest strengths (or weaknesses), 
 				depending on how you look at it. 
 				A few weeks ago, I set myself to create a website for my business from scratch, 
@@ -104,14 +146,16 @@
 				<p>Anyway, buckle up for the responsiveness journey I am about to take you on...</p>
 
 
-			<h3>Google test</h3>
+			<h3 id="toc4">Google test</h3>
 			
 			<p>First things first. Is your site is mobile-friendly? We can only ask the big guys - Google, who have a mobile-friendliness test that 
 				you can use. </p>
-			<p>All you need to do is paste your URL here: <img alt="Google Mobile Friendly test" class="responsive" src="images/Google%20Test.png"></p>
-			p>Then click ‘test URL’.</p>You will then see how your site performs: <img alt="Google test Performance" class="responsive" src="images/Google%20Test%20Performance.png">
+			<p>All you need to do is paste your URL here: <img alt="Google Mobile Friendly test" class="responsive" 
+				src="images/Google%20Test.png">
+			</p>
+			<p>Then click ‘test URL’.</p>You will then see how your site performs: <img alt="Google test Performance" class="responsive" src="images/Google%20Test%20Performance.png">
 			<p></p>
-			<h2>But, how do you get to achieve mobile-friendliness?</h2>
+			<h2 id="toc5">But, how do you get to achieve mobile-friendliness?</h2>
 			<p>This part is going to get a little technical. However, you can talk to your web designer or developer about some of the concepts that I will talk about here and they will help you understand.</p>
 			<h3>First things first</h3>
 			<p>Your website is built on something called <a href="https://html.com/">HTML</a> (HyperText Markup Language). If you have ever tried to access your site’s page source code, you have seen content marked by these tags &lt;&gt;.</p>
@@ -121,14 +165,14 @@
 			<p>You can see content that has these tags &lt;&gt;, for example, 'html, and 'head'. Your site’s content exists between these tags.</p>
 			<p>In order to make your site look good, something else called <a href="https://html.com/">CSS</a> (Cascading Style Sheets) is used. This is what we are also going to use to make our site mobile-friendly (or responsive).</p>
 			<p>There are other ‘helpers’ called frameworks or libraries that are used in order to make it easier to implement CSS. One such framework is Bootstrap. <a href="https://mdbootstrap.com/"><img alt="material design for Bootstrap" class="responsive" src="images/mdBootstrap.png"></a> The rest of the article is going to be heavily focused on Bootstrap, and in particular, mdBootstrap (material design for Bootstrap).</p>
-			<h2>Third-party tool: material design for Bootstrap</h2>
+			<h2 id="toc6">Third-party tool: material design for Bootstrap</h2>
 			<p>I used mdBootstrap, after all, I wanted the site to look really great, with time saved where possible. This is where ladies and gentlemen my nightmare with page responsiveness began. But, I am going to use lessons from my nightmare to make it easy for you to create a responsive web page from scratch using HTML and CSS (mdBootstrap).</p>
-			<h3>First, go through the documentation</h3>
+			<h3 id="toc7">First, go through the documentation</h3>
 			<p>It is difficult to use something you have never used without reading its manual, right? Despite being generation Y and Z people who are so used to tech and screens that we can somehow instinctively know how to find a way around, with mdBootstrap, you are better off using their map - their manual - their documentation. It might seem daunting at first, but it will help you understand what different aspects do.</p>
-			<h3>‘Connect’ mdBootstrap to your webpage</h3>
+			<h3 id="toc8">‘Connect’ mdBootstrap to your webpage</h3>
 			<p>Work with your developer to ‘connect’ your webpage to mdBootstrap. However, if you are a DIY person, get access to the <a href="https://mdbootstrap.com/md-bootstrap-cdn/">CDN links</a> that you need from mdBootstrap and paste them in the</p>section of your index.html page. If you are using WordPress, you can make changes to your <a href="https://en.support.wordpress.com/custom-design/editing-css/">CSS editor</a>.
 			<p></p>
-			<h3>Start with the navbar</h3>
+			<h3 id="toc9">Start with the navbar</h3>
 			<p>Your navbar is what makes it possible to navigate your site. It contains shortcuts to important places on your site and is one way that users will use to judge your site. If your navbar is difficult to use, users might not stay long on your site.</p>There are different types of navbars:
 			<ul>
 				<li>the hamburger menu</li>
@@ -140,7 +184,7 @@
 			<p>The above site includes more items in their navbar including product categories and programs that their customers may be interested in joining. <img alt="ACDI-VOCA navbar" class="responsive" src="images/AV%20Navbar.png"> Image Source: https://www.acdivoca.org/</p>
 			<p>On the above site, the navbar has a dropdown menu in addition to the main categories. It also includes ‘careers’ and ‘volunteer’ categories. The privacy policy notification may also be viewed as part of the navigation, as it gives the user a chance to directly navigate to the privacy policy. It is also a smart way to show compliance in the wake of <a href="https://gdpr-info.eu/">GDPR</a> and companies needing to be more transparent about how the use <a href="https://www.lifelock.com/learn-identity-theft-resources-what-is-personally-identifiable-information.html">PII</a> (Personally Identifiable Information).</p>
 			<p>Complex navbars need to make use of <a href="https://seranking.com/blog/breadcrumb-navigation/">breadcrumbs</a> (we will delve into this more in future)</p>
-			<h3>mdBootstrap navbar features</h3>
+			<h3 id="toc10">mdBootstrap navbar features</h3>
 			<p>Now that you have an idea about navbars, let’s look at aspects that you will get from mdBootstrap.</p>
 			<h4>Classes</h4>
 			<p>Navbar features on mdBootstrap are implemented via classes.</p>
@@ -178,14 +222,14 @@
 				<li>Choose the devices that you want to view</li>
 			</ul><img alt="Toggle Device, Google Chrome Developer Tools" class="responsive" src="images/Toggle.png">
 			<p>In the above image, the Toggle Device Toolbar has an icon with 2 screen sizes.</p>
-			<h3>Important styling aspects to take care of</h3>There are styling aspects that you need to get right first before you even think about different screen sizes, and how you would want your site to render.
+			<h3 id="toc11">Important styling aspects to take care of</h3>There are styling aspects that you need to get right first before you even think about different screen sizes, and how you would want your site to render.
 			<h5>The header image</h5>Your header image should first of all be of high quality. Next, use the following CSS styling on it:
 			<p class="bootstrap-warning">width: 100%; height: auto;</p>
 			<p>Note that the height is not fixed. This will allow it to adjust appropriately to the screen size available.</p>
-			<h5>Logo size</h5>
+			<h5 id="toc12">Logo size</h5>
 			<p>The size of your logo matters. If you use an excessively small logo, it will lose its quality on your site. On the other hand, a big logo will take up too much space making your navbar and top of the fold content ( what users can see without scrolling) use up space that you could use to further interact with your customer.</p>
 			<p>Different platforms use different logo sizes. On WordPress, the logo size is determined by the theme template that you choose. The logo type and orientation matters. If it is horizontal, 250 x 100px and 400px X 100pxwill do. If it is a vertical one 160px X 160 px will do. Smaller logo sizes (less than 100px) as are ideal though. If you include your logo in your header, go for a height of 20px to 30 px.</p>
-			<h5>Overflow</h5>
+			<h5 id="toc13">Overflow</h5>
 			<p>This is when your page has white space on the right. It passes the Google mobile-friendliness test though. <img alt="CSS Overflow" class="responsive" src="images/Overflow.png"> This is referred to as a page that ‘overflows’. What you need to do is add a wrapper around your entire site’s content, which is between the body tags. This is because browsers will ignore overflow styling if it is attached to the body element. You can also add a div with the class as ‘wrapper’ or ‘container-fluid’. You then need to add the following styling to the body element:</p>
 			<p class="bootstrap-warning">overflow-x:hidden;
 				position:relative;
@@ -274,7 +318,7 @@
 	 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js" type="text/javascript">
 	</script> 
-	<script src="js/scripts.js">
-	</script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+	
 </body>
 </html>

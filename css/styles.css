@@ -74,6 +74,12 @@ h1 {
 	width: 100%;
 	height: auto;
 }
+#TOC{
+	text-align: left !important; 
+}
+/* .scroller{
+	display: none;
+} */
 .section2 {
 	margin: 0em 3em 0em 3em;
 }
@@ -654,7 +660,7 @@ h1 {
 		padding-right:1.5em;
 		padding-top:0;	
 		padding-bottom:0;	
-	}
+	}	
 }
 /* // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
