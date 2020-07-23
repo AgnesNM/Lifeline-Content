@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<urlset xmlns="https://agnesnm.github.io/Lifeline-Content/sitemap.xml">
+
+   <url>
+
+      <loc>https://agnesnm.github.io/Lifeline-Content/index.html</loc>
+
+      <lastmod>2020-07-01</lastmod>
+
+      <changefreq>monthly</changefreq>      
+
+   </url>
+
+   <url>
+
+      <loc>https://agnesnm.github.io/Lifeline-Content/services.html</loc>
+
+      <lastmod>2020-07-01</lastmod>
+
+      <changefreq>monthly</changefreq>      
+
+   </url>
+   
+   <url>
+
+      <loc>https://agnesnm.github.io/Lifeline-Content/about.html</loc>
+
+      <lastmod>2020-07-01</lastmod>
+
+      <changefreq>monthly</changefreq>      
+
+   </url>
+
+   <url>
+
+      <loc>https://agnesnm.github.io/Lifeline-Content/contact.html</loc>
+
+      <lastmod>2020-07-01</lastmod>
+
+      <changefreq>monthly</changefreq>      
+
+   </url>
+
+</urlset> 
